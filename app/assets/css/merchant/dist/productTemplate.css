@@ -1,0 +1,16 @@
+.template .top {
+  display: flex;
+}
+.template .top .left {
+  flex: 0 0 auto;
+}
+.template .top .right {
+  flex: 1;
+  text-align: right;
+}
+.template .top .right .ant-input-affix-wrapper {
+  margin-left: 5px;
+}
+.template .top .right .ant-select {
+  margin-left: 5px;
+}

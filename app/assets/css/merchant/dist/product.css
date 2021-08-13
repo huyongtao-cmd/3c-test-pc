@@ -1,0 +1,13 @@
+.product .top {
+  display: flex;
+}
+.product .top .left {
+  flex: 0 0 auto;
+}
+.product .top .right {
+  flex: 1;
+  text-align: right;
+}
+.product .top .right .nameSearch {
+  margin-left: 10px;
+}

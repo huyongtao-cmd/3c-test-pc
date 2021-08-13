@@ -1,0 +1,59 @@
+.account-page .bank-card {
+  position: relative;
+  width: 300px;
+  height: 160px;
+  padding: 20px;
+  color: #fff;
+  margin: 10px 20px 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#00744b), to(#00748A));
+  background: linear-gradient(90deg, #00744b, #00748A);
+  border-radius: 12px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.account-page .bank-card li {
+  font-size: 16px;
+}
+.account-page .account-title {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.account-page .account-qr-code {
+  position: relative;
+  background: #fff;
+  border: 1px solid #f5f5f5;
+  box-shadow: 0 1px 6px;
+  width: 300px;
+  height: 160px;
+  border-radius: 10px;
+}
+.account-page .account-qr-code img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-80%);
+}
+.account-page .ali {
+  background: #2F9BE9;
+}
+.account-page .wx {
+  background: #12B23A;
+}
+.account-page .remove {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 50px;
+  height: 22px;
+  font-size: 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
